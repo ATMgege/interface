@@ -32,7 +32,7 @@ export default function URLWarning() {
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={12} /> {t('header.makeSureURLWarning')}
-        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>Teddyswap.com & www.Teddyswap.com</code>
+        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>Teddyswap.co & www.Teddyswap.co</code>
       </div>
       <StyledClose size={12} onClick={toggleURLWarning} />
     </PhishAlert>
@@ -41,7 +41,7 @@ export default function URLWarning() {
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={12} /> {t('header.alwaysMakeSureWarning')}
         <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>
-          Teddyswap.com & www.Teddyswap.com
+          Teddyswap.co & www.Teddyswap.co
         </code>{' '}
         -{t('header.bookmarkIt')}
       </div>
