@@ -37,7 +37,7 @@ export const PNG: { [chainId in ChainId]: Token } = {
     'PNG',
     'Pangolin'
   ),
-  [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'Teddy', 'Teddy')
+  [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY')
 }
 
 export const ETH: { [chainId in ChainId]: Token } = {
@@ -47,7 +47,7 @@ export const ETH: { [chainId in ChainId]: Token } = {
 
 export const Teddy: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'Teddy', 'TeddyDoge'),
-  [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'Teddy', 'Teddy')
+  [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY')
 }
 
 export const WETHe: { [chainId in ChainId]: Token } = {

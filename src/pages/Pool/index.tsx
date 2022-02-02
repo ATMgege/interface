@@ -134,13 +134,13 @@ export default function Pool() {
               <RowBetween>
                 <TYPE.white fontSize={14}>{t('pool.liquidityProvidersEarn')}</TYPE.white>
               </RowBetween>
-              <ExternalLink
+              {/* <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
                 target="_blank"
                 href={LiquidityTutorial}
               >
                 <TYPE.white fontSize={14}>{t('pool.readMoreProviding')}</TYPE.white>
-              </ExternalLink>
+              </ExternalLink> */}
             </AutoColumn>
           </CardSection>
           <CardBGImage />

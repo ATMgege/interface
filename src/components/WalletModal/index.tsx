@@ -377,12 +377,12 @@ export default function WalletModal({
           ) : (
             <OptionGrid>{getOptions()}</OptionGrid>
           )}
-          {walletView !== WALLET_VIEWS.PENDING && (
+          {/* {walletView !== WALLET_VIEWS.PENDING && (
             <Blurb>
               <span>{t('walletModal.newToAvalanche')} &nbsp;</span>{' '}
               <ExternalLink href={WALLET_TUTORIAL}>{t('walletModal.learnMoreWallet')}</ExternalLink>
             </Blurb>
-          )}
+          )} */}
         </ContentWrapper>
       </UpperSection>
     )
