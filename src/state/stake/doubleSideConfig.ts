@@ -98,7 +98,7 @@ import {
 } from '../../constants'
 import { BridgeMigrator, DoubleSideStaking, Migration } from './hooks'
 export const DOUBLE_SIDE_STAKING: { [key: string]: DoubleSideStaking } = {
-  WBNB_Teddy_V2: {
+  WBNB_TEDDY_V2: {
     tokens: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]],
     stakingRewardAddress: MINICHEF_ADDRESS,
     version: 2
