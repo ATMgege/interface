@@ -197,7 +197,7 @@ const Title = styled.a`
 const PngIcon = styled.div`
   transition: transform 0.3s ease;
   &>img{
-    width: 66px;
+    width: 46px;
     height: 46px;
   }
   :hover {
