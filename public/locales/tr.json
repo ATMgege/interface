@@ -331,7 +331,7 @@
     "pngStaking": "PNG Staking",
     "totalStaked": "Yatırılan Toplam",
     "poolRate": "Havuzun Getirisi",
-    "step1": "1. Aşama: PizsSwap likidite tokenleri (PZL) edinin",
+    "step1": "1. Aşama: TeddySwap likidite tokenleri (PZL) edinin",
     "pglTokenRequired": "PZL tokeni gereklidir. {{ poolHandle }} havuzuna likidite ekledikten sonra bu sayfadan likidite tokenlerinizi yatırabilirsiniz.",
     "addPoolLiquidity": "{{ poolHandle }} havuzuna likidite ekle",
     "liquidityDeposits": "Likidite yatırımlarınız",

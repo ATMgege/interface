@@ -331,7 +331,7 @@
     "pngStaking": "PNG 质押",
     "totalStaked": "总质押",
     "poolRate": "池率",
-    "step1": "S 获取 PizsSwap 流动性代币 (TLP)",
+    "step1": "S 获取 TeddySwap 流动性代币 (TLP)",
     "pglTokenRequired": "需要TLP代币。 向 {{ poolHandle }} 池添加流动性后，您可以在此页面上抵押您的流动性代币。",
     "addPoolLiquidity": "添加 {{ poolHandle }} 流动性",
     "liquidityDeposits": "您的流动资金存款",

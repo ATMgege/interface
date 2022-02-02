@@ -331,7 +331,7 @@
     "pngStaking": "PNG Staking",
     "totalStaked": "Total Staké",
     "poolRate": "Taux de la pool",
-    "step1": "Etape 1. Obtenez des jetons de liquidité PizsSwap (PZL)",
+    "step1": "Etape 1. Obtenez des jetons de liquidité TeddySwap (PZL)",
     "pglTokenRequired": "Les jetons PZL sont nécessaires. Une fois que vous avez ajouté des liquidités à la {{ poolHandle }} pool vous pouvez stake vos jetons de liquidité sur cette page.",
     "addPoolLiquidity": "Ajouter {{ poolHandle }} liquidité",
     "liquidityDeposits": "Vos dépôts de liquidités",
