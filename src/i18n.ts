@@ -13,9 +13,9 @@ const determineLngFn = (code: string): string => {
   }
 
   // Full locale match
-  if (availableLanguages.includes(code.toLowerCase())) {
-    return (i18next.language = code.toLowerCase())
-  }
+  // if (availableLanguages.includes(code.toLowerCase())) {
+  //   return (i18next.language = code.toLowerCase())
+  // }
 
   // Base locale match
   const codeBase = code.split('-')[0].toLowerCase()
