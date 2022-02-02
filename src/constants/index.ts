@@ -11,8 +11,8 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.BSC]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64'
 }
 
-export const LANDING_PAGE = 'https://halfpizza.com/about'
-export const ANALYTICS_PAGE = 'https://info.Teddyswap.com'
+export const LANDING_PAGE = 'https://teddydoge.finance/'
+export const ANALYTICS_PAGE = '#'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 

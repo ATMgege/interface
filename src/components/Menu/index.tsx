@@ -54,11 +54,11 @@ export default function Menu() {
             <Book size={14} />
             {t('menu.tutorials')}
           </MenuItem> */}
-          <MenuItem id="link" href="https://t.me/s2LPWnB1200zMmY0">
+          <MenuItem id="link" href="https://t.me/TeddyDoge_Official">
             <Send size={14} />
             {t('menu.telegram')}
           </MenuItem>
-          <MenuItem id="link" href="https://www.facebook.com/HalfPizzaGroup">
+          <MenuItem id="link" href="https://www.facebook.com/Teddy-Swap-100534085871418">
             <MessageCircle size={14} />
             {t('menu.facebook')}
           </MenuItem>
@@ -70,11 +70,11 @@ export default function Menu() {
             <CheckSquare size={14} />
             {t('header.vote')}
           </MenuNavItem> */}
-          <MenuItem id="link" href="https://twitter.com/HalfPizza3">
+          <MenuItem id="link" href="https://twitter.com/TeddySwap1">
             <Twitter size={14} />
             {t('menu.twitter')}
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/halfpizza/Half-Pizza">
+          <MenuItem id="link" href="https://github.com/TeddyDogeToken/TeddyDoge">
             <GitHub size={14} />
             {t('menu.code')}
           </MenuItem>
