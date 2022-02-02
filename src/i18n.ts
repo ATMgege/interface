@@ -29,7 +29,7 @@ const determineLngFn = (code: string): string => {
 
 i18next
   .use(XHR)
-  .use(LanguageDetector)
+  // .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     backend: {
