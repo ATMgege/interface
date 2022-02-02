@@ -249,7 +249,7 @@ const Dashboard = () => {
                       <Line
                         type="monotone"
                         dataKey="value"
-                        stroke={coinsToken === 'PNG' ? '#18C145' : '#E84142'}
+                        stroke={coinsToken === 'PNG' ? '#18C145' : '#FFC107'}
                         dot={false}
                       />
                     </LineChart>

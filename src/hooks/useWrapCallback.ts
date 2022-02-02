@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, CBNB, WBNB } from 'pizzaswap-sdk'
+import { Currency, currencyEquals, CBNB, WBNB } from 'teddyswap-sdk'
 import { useMemo } from 'react'
 import { tryParseAmount } from '../state/swap/hooks'
 import { useTransactionAdder } from '../state/transactions/hooks'

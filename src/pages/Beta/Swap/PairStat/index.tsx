@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { PanelWrapper } from './styleds'
 import { Text, Box, DoubleCurrencyLogo } from '@pangolindex/components'
-import { ChainId, Token } from 'pizzaswap-sdk'
+import { ChainId, Token } from 'teddyswap-sdk'
 import Stat from 'src/components/Stat'
 import { ThemeContext } from 'styled-components'
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, Box, CurrencyLogo, Button } from '@pangolindex/components'
 import { Link } from 'react-feather'
 import { LineChart, Line, ResponsiveContainer } from 'recharts'
-import { Token } from 'pizzaswap-sdk'
+import { Token } from 'teddyswap-sdk'
 import { SelectedCoinInfo, TrackIcons, DurationBtns } from './styleds'
 
 type Props = {

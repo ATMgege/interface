@@ -1,4 +1,4 @@
-import { ChainId } from 'pizzaswap-sdk'
+import { ChainId } from 'teddyswap-sdk'
 import { createStore, Store } from 'redux'
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'

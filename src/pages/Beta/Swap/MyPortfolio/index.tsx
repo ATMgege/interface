@@ -1,7 +1,7 @@
 import React from 'react'
 import { PageWrapper, GridContainer } from './styleds'
 import { Text, Box } from '@pangolindex/components'
-import { ChainId, JSBI, Pair, Token, TokenAmount, WBNB } from 'pizzaswap-sdk'
+import { ChainId, JSBI, Pair, Token, TokenAmount, WBNB } from 'teddyswap-sdk'
 import { LINK, PNG } from 'src/constants'
 import PortfolioChart from './PortfolioChart'
 import PortfolioRow from './PortfolioRow'

@@ -1,5 +1,5 @@
 import { CurrencyLogo, Text, Box } from '@pangolindex/components'
-import { Trade } from 'pizzaswap-sdk'
+import { Trade } from 'teddyswap-sdk'
 import React, { useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { ThemeContext } from 'styled-components'

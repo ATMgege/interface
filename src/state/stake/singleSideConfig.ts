@@ -1,4 +1,4 @@
-import { ChainId, WBNB } from 'pizzaswap-sdk'
+import { ChainId, WBNB } from 'teddyswap-sdk'
 import { OOE, APEIN, ORBS, PNG } from '../../constants'
 import { SingleSideStaking } from './hooks'
 

@@ -2,11 +2,11 @@ import { useState, useLayoutEffect } from 'react'
 import { shade } from 'polished'
 import Vibrant from 'node-vibrant'
 import { hex } from 'wcag-contrast'
-import { Token } from 'pizzaswap-sdk'
+import { Token } from 'teddyswap-sdk'
 
 async function getColorFromToken(token: Token): Promise<string | null> {
   let path = `https://raw.githubusercontent.com/pangolindex/tokens/main/assets/${token.address}/logo.png`
-  if(token.address.toLowerCase() == '0xFC646D0B564bf191B3d3adF2B620a792E485e6Da'.toLowerCase()){
+  if(token.address.toLowerCase() == '0x10f6f2b97f3ab29583d9d38babf2994df7220c21'.toLowerCase()){
     path = `/logo.png`;
   }
   return Vibrant.from(path)

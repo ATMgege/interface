@@ -1,7 +1,7 @@
 import React from 'react'
 import { InfoWrapper, DataBox, ContentBox, TextBox, StyledBalanceMax } from './styleds'
 import { Text, Box, DoubleCurrencyLogo, Steps, Step } from '@pangolindex/components'
-import { Pair, TokenAmount } from 'pizzaswap-sdk'
+import { Pair, TokenAmount } from 'teddyswap-sdk'
 import { useGetPairDataFromPair } from '../../../state/stake/hooks'
 import numeral from 'numeral'
 import { useTranslation } from 'react-i18next'
@@ -10,7 +10,7 @@ import { useTokenBalance } from '../../../state/wallet/hooks'
 import { useActiveWeb3React } from '../../../hooks'
 import { wrappedCurrencyAmount } from '../../../utils/wrappedCurrency'
 import { tryParseAmount } from '../../../state/swap/hooks'
-import { JSBI } from 'pizzaswap-sdk'
+import { JSBI } from 'teddyswap-sdk'
 
 export interface PoolInfoProps {
   pair: Pair
@@ -107,7 +107,7 @@ const PoolInfo = ({
 
   const yourPngRate = {
     label: `${t('migratePage.yourRate')}`,
-    value: `${pngRate}    ${t('earnPage.rewardPerWeek', { symbol: 'PIZA' })}`
+    value: `${pngRate}    ${t('earnPage.rewardPerWeek', { symbol: 'Teddy' })}`
   }
 
   const unClaimedRow = {

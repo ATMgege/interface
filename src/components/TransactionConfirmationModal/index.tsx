@@ -1,4 +1,4 @@
-import { ChainId } from 'pizzaswap-sdk'
+import { ChainId } from 'teddyswap-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

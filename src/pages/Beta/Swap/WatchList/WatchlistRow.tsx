@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Text, Box, CurrencyLogo } from '@pangolindex/components'
 import { LineChart, Line, ResponsiveContainer } from 'recharts'
-import { Token } from 'pizzaswap-sdk'
+import { Token } from 'teddyswap-sdk'
 import { RowWrapper } from './styleds'
 import { coinData } from './mock'
 import { ThemeContext } from 'styled-components'

@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from 'pizzaswap-sdk'
+import { Currency, Percent, Price } from 'teddyswap-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

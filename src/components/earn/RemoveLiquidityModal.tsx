@@ -15,7 +15,7 @@ import { useCurrency } from '../../hooks/Tokens'
 import useTransactionDeadline from '../../hooks/useTransactionDeadline'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { Field } from '../../state/burn/actions'
-import { CBNB, ChainId, currencyEquals, Percent, WBNB } from 'pizzaswap-sdk'
+import { CBNB, ChainId, currencyEquals, Percent, WBNB } from 'teddyswap-sdk'
 import { Contract } from '@ethersproject/contracts'
 import { ApprovalState, useApproveCallback } from '../../hooks/useApproveCallback'
 import { ROUTER_ADDRESS } from '../../constants'
@@ -130,7 +130,7 @@ export default function RemoveLiquidityModal({
       { name: 'verifyingContract', type: 'address' }
     ]
     const domain = {
-      name: 'Pizza LP',
+      name: 'Teddy LP',
       version: '1',
       chainId: chainId,
       verifyingContract: pair.liquidityToken.address

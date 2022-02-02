@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react'
 import { AutoColumn } from '../../components/Column'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { JSBI, Token, Currency } from 'pizzaswap-sdk'
+import { JSBI, Token, Currency } from 'teddyswap-sdk'
 import DoubleCurrencyLogo from '../../components/DoubleLogo'
 import { useWalletModalToggle } from '../../state/application/hooks'
 import { TYPE } from '../../theme'
@@ -149,7 +149,7 @@ const Manage: React.FC<ManageProps> = ({ version, stakingInfo, currencyA, curren
               {stakingInfo?.totalRewardRate
                 ?.multiply((60 * 60 * 24 * 7).toString())
                 ?.toFixed(0, { groupSeparator: ',' }) ?? '-'}
-              {t('earnPage.rewardPerWeek', { symbol: 'PIZA' })}
+              {t('earnPage.rewardPerWeek', { symbol: 'Teddy' })}
             </TYPE.body>
           </AutoColumn>
         </PoolData>
@@ -259,7 +259,7 @@ const Manage: React.FC<ManageProps> = ({ version, stakingInfo, currencyA, curren
             <AutoColumn gap="sm">
               <RowBetween>
                 <div>
-                  <TYPE.black>{t('earnPage.unclaimedReward', { symbol: 'PIZA' })}</TYPE.black>
+                  <TYPE.black>{t('earnPage.unclaimedReward', { symbol: 'Teddy' })}</TYPE.black>
                 </div>
                 {stakingInfo?.earnedAmount && JSBI.notEqual(BIG_INT_ZERO, stakingInfo?.earnedAmount?.raw) && (
                   <ButtonEmpty
@@ -291,7 +291,7 @@ const Manage: React.FC<ManageProps> = ({ version, stakingInfo, currencyA, curren
                   {stakingInfo?.rewardRate
                     ?.multiply((60 * 60 * 24 * 7).toString())
                     ?.toSignificant(4, { groupSeparator: ',' }) ?? '-'}
-                  {t('earnPage.rewardPerWeek', { symbol: 'PIZA' })}
+                  {t('earnPage.rewardPerWeek', { symbol: 'Teddy' })}
                 </TYPE.black>
               </RowBetween>
             </AutoColumn>

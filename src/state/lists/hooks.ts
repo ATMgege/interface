@@ -1,10 +1,10 @@
-import { ChainId, Token } from 'pizzaswap-sdk'
+import { ChainId, Token } from 'teddyswap-sdk'
 import { Tags, TokenInfo, TokenList } from '@pangolindex/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { AppState } from '../index'
 import { PANCAKE_LIST, AEB_TOKENLIST } from '../../constants/lists'
-import { WBNB } from 'pizzaswap-sdk'
+import { WBNB } from 'teddyswap-sdk'
 import { PNG } from '../../constants'
 
 type TagDetails = Tags[keyof Tags]

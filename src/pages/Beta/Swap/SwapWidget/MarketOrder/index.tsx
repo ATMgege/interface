@@ -2,7 +2,7 @@ import React, { useState, useContext, useCallback, useMemo, useEffect } from 're
 import ReactGA from 'react-ga'
 import { RefreshCcw } from 'react-feather'
 import { Text, Box, Button } from '@pangolindex/components'
-import { Token, Trade, JSBI, CurrencyAmount, TokenAmount } from 'pizzaswap-sdk'
+import { Token, Trade, JSBI, CurrencyAmount, TokenAmount } from 'teddyswap-sdk'
 import { ThemeContext } from 'styled-components'
 import RetryDrawer from '../../RetryDrawer'
 import SelectTokenDrawer from '../../SelectTokenDrawer'

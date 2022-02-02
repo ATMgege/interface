@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Wrapper } from './styleds'
 import { Box, Button } from '@pangolindex/components'
-import { Pair, JSBI, TokenAmount } from 'pizzaswap-sdk'
+import { Pair, JSBI, TokenAmount } from 'teddyswap-sdk'
 import PoolInfo from '../PoolInfo'
 import { StakingInfo } from '../../../state/stake/hooks'
 import { tryParseAmount } from '../../../state/swap/hooks'
@@ -179,7 +179,7 @@ const Stake = ({
       { name: 'verifyingContract', type: 'address' }
     ]
     const domain = {
-      name: 'Pizza LP',
+      name: 'Teddy LP',
       version: '1',
       chainId: chainId,
       verifyingContract: pairContract.address

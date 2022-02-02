@@ -1,4 +1,4 @@
-import { Percent } from 'pizzaswap-sdk'
+import { Percent } from 'teddyswap-sdk'
 import { ALLOWED_PRICE_IMPACT_HIGH, PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN } from '../../constants'
 import i18next from '../../i18n'
 

@@ -314,7 +314,7 @@
   "earnPage": {
     "pangolinLiquidityMining": "Minage de la liquidité de Pangolin",
     "pangolinLiquidityStaking": "Pangolin PNG staking",
-    "depositPangolinLiquidity": "Déposez vos jetons PZL (Pizza LP Provider) pour recevoir PNG, le jeton de gouvernance du protocole Pangolin.",
+    "depositPangolinLiquidity": "Déposez vos jetons PZL (Teddy LP Provider) pour recevoir PNG, le jeton de gouvernance du protocole Pangolin.",
     "depositPangolinStaking": "Déposez vos PNG pour gagner plus de tokens parmi les opportunités présentées.",
     "currentOpportunities": "Opportunités actuelles",
     "readMoreAboutPng": "En savoir plus sur PNG",
@@ -339,7 +339,7 @@
     "unclaimedReward": "Vos {{ symbol }} non réclamés",
     "claim": "Réclamer",
     "rewardPerWeek": " {{ symbol }} / semaine",
-    "automagically": "Lorsque vous vous retirez, le contrat réclame automatiquement le PIZA en votre nom !",
+    "automagically": "Lorsque vous vous retirez, le contrat réclame automatiquement le Teddy en votre nom !",
     "deposit": "Dépôt",
     "depositStakingTokens": "Déposer des jetons {{ symbol }}",
     "stake": "Dépôt",

@@ -2,7 +2,7 @@ import React, { useCallback, useMemo, useState } from 'react'
 import { AutoColumn } from '../../components/Column'
 import styled from 'styled-components'
 
-import { ChainId, JSBI } from 'pizzaswap-sdk'
+import { ChainId, JSBI } from 'teddyswap-sdk'
 import { Link, RouteComponentProps } from 'react-router-dom'
 import { useCurrency } from '../../hooks/Tokens'
 import { useWalletModalToggle } from '../../state/application/hooks'
@@ -185,7 +185,7 @@ export default function Manage({
             <CardSection>
               <AutoColumn gap="md">
                 <RowBetween>
-                  <TYPE.white fontWeight={600}>{t('earnPage.yourStakedToken', { symbol: 'PIZA' })}</TYPE.white>
+                  <TYPE.white fontWeight={600}>{t('earnPage.yourStakedToken', { symbol: 'Teddy' })}</TYPE.white>
                 </RowBetween>
                 <RowBetween style={{ alignItems: 'baseline' }}>
                   <TYPE.white fontSize={36} fontWeight={600}>
@@ -245,7 +245,7 @@ export default function Manage({
           <ButtonPrimary padding="10px" borderRadius="8px" width="auto" onClick={handleStakeClick}>
             {stakingInfo?.stakedAmount?.greaterThan(JSBI.BigInt(0))
               ? t('earnPage.stake')
-              : t('earnPage.stakeStakingTokens', { symbol: 'PIZA' })}
+              : t('earnPage.stakeStakingTokens', { symbol: 'Teddy' })}
           </ButtonPrimary>
         ) : (
           <ButtonPrimary
@@ -254,7 +254,7 @@ export default function Manage({
             as={Link}
             to={`/swap?inputCurrency=${ZERO_ADDRESS}&outputCurrency=${png.address}`}
           >
-            {t('earnPage.getToken', { symbol: 'PIZA' })}
+            {t('earnPage.getToken', { symbol: 'Teddy' })}
           </ButtonPrimary>
         )}
 
@@ -267,7 +267,7 @@ export default function Manage({
 
       {userPngUnstaked?.greaterThan('0') && (
         <TYPE.main>
-          {userPngUnstaked.toSignificant(6)} {t('earnPage.stakingTokensAvailable', { symbol: 'PIZA' })}
+          {userPngUnstaked.toSignificant(6)} {t('earnPage.stakingTokensAvailable', { symbol: 'Teddy' })}
         </TYPE.main>
       )}
     </PageWrapper>

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, currencyEquals, CBNB, Token } from 'pizzaswap-sdk'
+import { Currency, CurrencyAmount, currencyEquals, CBNB, Token } from 'teddyswap-sdk'
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
 import { FixedSizeList } from 'react-window'
 import { Text } from 'rebass'

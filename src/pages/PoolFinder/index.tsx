@@ -1,4 +1,4 @@
-import { Currency, CBNB, JSBI, TokenAmount } from 'pizzaswap-sdk'
+import { Currency, CBNB, JSBI, TokenAmount } from 'teddyswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

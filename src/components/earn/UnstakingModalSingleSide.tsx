@@ -81,7 +81,7 @@ export default function UnstakingModalSingleSide({ isOpen, onDismiss, stakingInf
               <TYPE.body fontWeight={600} fontSize={36}>
                 {<FormattedCurrencyAmount currencyAmount={stakingInfo.stakedAmount} />}
               </TYPE.body>
-              <TYPE.body>{t('earn.depositedToken', { symbol: 'PIZA' })}</TYPE.body>
+              <TYPE.body>{t('earn.depositedToken', { symbol: 'Teddy' })}</TYPE.body>
             </AutoColumn>
           )}
           {stakingInfo?.earnedAmount && (
@@ -93,7 +93,7 @@ export default function UnstakingModalSingleSide({ isOpen, onDismiss, stakingInf
             </AutoColumn>
           )}
           <TYPE.subHeader style={{ textAlign: 'center' }}>
-            {t('earn.whenYouWithdrawSingleSideWarning', { symbol: 'PIZA' })}
+            {t('earn.whenYouWithdrawSingleSideWarning', { symbol: 'Teddy' })}
           </TYPE.subHeader>
           <ButtonError disabled={!!error} error={!!error && !!stakingInfo?.stakedAmount} onClick={onWithdraw}>
             {error ?? t('earn.withdrawAndClaim')}
@@ -106,7 +106,7 @@ export default function UnstakingModalSingleSide({ isOpen, onDismiss, stakingInf
             <TYPE.body fontSize={20}>
               {t('earn.withdrawingLiquidity', {
                 amount: stakingInfo?.stakedAmount?.toSignificant(4),
-                symbol: 'PIZA'
+                symbol: 'Teddy'
               })}
             </TYPE.body>
             <TYPE.body fontSize={20}>
@@ -122,7 +122,7 @@ export default function UnstakingModalSingleSide({ isOpen, onDismiss, stakingInf
         <SubmittedView onDismiss={wrappedOnDismiss} hash={hash}>
           <AutoColumn gap="12px" justify={'center'}>
             <TYPE.largeHeader>{t('earn.transactionSubmitted')}</TYPE.largeHeader>
-            <TYPE.body fontSize={20}>{t('earn.withdrewStakingToken', { symbol: 'PIZA' })}</TYPE.body>
+            <TYPE.body fontSize={20}>{t('earn.withdrewStakingToken', { symbol: 'Teddy' })}</TYPE.body>
             <TYPE.body fontSize={20}>{t('earn.claimedReward', { symbol: stakingInfo?.rewardToken?.symbol })}</TYPE.body>
           </AutoColumn>
         </SubmittedView>

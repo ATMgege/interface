@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'pizzaswap-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'teddyswap-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

@@ -14561,19 +14561,6 @@ pixelmatch@^4.0.2:
   dependencies:
     pngjs "^3.0.0"
 
-pizzaswap-sdk@^1.4.0:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/pizzaswap-sdk/-/pizzaswap-sdk-1.4.1.tgz#7e1ce61c8cd0b178470711777fcc80020c314079"
-  integrity sha512-UTESGSJjeyITEJTv5In/MxAuGw1PMGbBHYiDJEn3TyGpa44Ku9UPhOB+vnQXKHlmWY+SLv8agFHgCX7XH68BqQ==
-  dependencies:
-    "@openzeppelin/cli" "^2.8.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 pkg-dir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-1.0.0.tgz#7a4b508a8d5bb2d629d447056ff4e9c9314cf3d4"
@@ -18343,6 +18330,19 @@ tar@^4.0.2:
     mkdirp "^0.5.5"
     safe-buffer "^5.2.1"
     yallist "^3.1.1"
+
+teddyswap-sdk@^1.4.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/teddyswap-sdk/-/teddyswap-sdk-1.4.1.tgz#66087cf3104b0e3ac0f43dde41346a444053892c"
+  integrity sha512-Xs5Ld9uhdK5uGGKUFi6yIUSv2/Q69RkSzCUOeuomdVQs/NjMOUq8dMDReNhSbv8fP+xNFJUHg0KaPCJOf1p7fg==
+  dependencies:
+    "@openzeppelin/cli" "^2.8.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 term-size@^1.2.0:
   version "1.2.0"

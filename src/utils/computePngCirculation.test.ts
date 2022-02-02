@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Token, TokenAmount } from 'pizzaswap-sdk'
+import { ChainId, JSBI, Token, TokenAmount } from 'teddyswap-sdk'
 import { BigNumber } from 'ethers'
 import { ZERO_ADDRESS } from '../constants'
 import { computePngCirculation } from './computePngCirculation'

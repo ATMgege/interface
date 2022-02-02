@@ -6,7 +6,7 @@ import { useActiveWeb3React } from 'src/hooks'
 import { ContentBox, DataBox, ValueText } from './styled'
 import { useGelatoLimitOrders, useGelatoLimitOrdersLib } from '@gelatonetwork/limit-orders-react'
 import { GelatoLimitOrders } from '@gelatonetwork/limit-orders-lib'
-import { TokenAmount } from 'pizzaswap-sdk'
+import { TokenAmount } from 'teddyswap-sdk'
 
 type Props = { trade: any }
 

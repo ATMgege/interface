@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text, Box, CurrencyLogo, DoubleCurrencyLogo } from '@pangolindex/components'
-import { Pair, Token } from 'pizzaswap-sdk'
+import { Pair, Token } from 'teddyswap-sdk'
 import { RowWrapper } from './styleds'
 
 type Props = {

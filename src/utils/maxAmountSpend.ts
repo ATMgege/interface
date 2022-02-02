@@ -1,4 +1,4 @@
-import { CurrencyAmount, CBNB, JSBI } from 'pizzaswap-sdk'
+import { CurrencyAmount, CBNB, JSBI } from 'teddyswap-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

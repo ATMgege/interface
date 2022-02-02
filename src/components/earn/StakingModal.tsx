@@ -8,7 +8,7 @@ import { TYPE, CloseIcon } from '../../theme'
 import { ButtonConfirmed, ButtonError } from '../Button'
 import ProgressCircles from '../ProgressSteps'
 import CurrencyInputPanel from '../CurrencyInputPanel'
-import { TokenAmount, Pair, ChainId } from 'pizzaswap-sdk'
+import { TokenAmount, Pair, ChainId } from 'teddyswap-sdk'
 import { useActiveWeb3React } from '../../hooks'
 import { maxAmountSpend } from '../../utils/maxAmountSpend'
 import { usePairContract, useStakingContract } from '../../hooks/useContract'
@@ -183,7 +183,7 @@ export default function StakingModal({
       { name: 'verifyingContract', type: 'address' }
     ]
     const domain = {
-      name: 'Pizza LP',
+      name: 'Teddy LP',
       version: '1',
       chainId: chainId,
       verifyingContract: pairContract.address
@@ -259,7 +259,7 @@ export default function StakingModal({
 
             <TYPE.black>
               {hypotheticalRewardRate.multiply((60 * 60 * 24 * 7).toString()).toSignificant(4, { groupSeparator: ',' })}{' '}
-              {t('earn.rewardPerWeek', { symbol: 'PIZA' })}
+              {t('earn.rewardPerWeek', { symbol: 'Teddy' })}
             </TYPE.black>
           </HypotheticalRewardRate>
 

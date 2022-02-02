@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from 'pizzaswap-sdk'
+import { ChainId, Pair, Token } from 'teddyswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
@@ -176,7 +176,7 @@ export function useURLWarningToggle(): () => void {
  * @param tokenB the other token
  */
 export function toV2LiquidityToken([tokenA, tokenB]: [Token, Token], chainId: ChainId): Token {
-  return new Token(tokenA.chainId, Pair.getAddress(tokenA, tokenB, chainId), 18, 'PZL', 'Pizza LP')
+  return new Token(tokenA.chainId, Pair.getAddress(tokenA, tokenB, chainId), 18, 'TLP', 'Teddy LP')
 }
 
 /**

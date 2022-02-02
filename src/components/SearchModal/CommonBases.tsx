@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'rebass'
-import { ChainId, Currency, currencyEquals, CBNB, Token } from 'pizzaswap-sdk'
+import { ChainId, Currency, currencyEquals, CBNB, Token } from 'teddyswap-sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'

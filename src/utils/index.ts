@@ -5,7 +5,7 @@ import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 import { BigNumber } from '@ethersproject/bignumber'
 import { abi as IPangolinRouterABI } from '../utils/IPangolinRouterABI.json'
 import { ROUTER_ADDRESS } from '../constants'
-import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, CBNB, currencyEquals, Trade } from 'pizzaswap-sdk'
+import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, CBNB, currencyEquals, Trade } from 'teddyswap-sdk'
 import { TokenAddressMap } from '../state/lists/hooks'
 
 // returns the checksummed address if the address is valid, otherwise returns false

@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'pizzaswap-sdk'
+import { Trade, TradeType } from 'teddyswap-sdk'
 import React, { useContext, useMemo } from 'react'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 import { Text } from 'rebass'

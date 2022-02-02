@@ -1,4 +1,4 @@
-import { TokenAmount, WBNB, JSBI } from 'pizzaswap-sdk'
+import { TokenAmount, WBNB, JSBI } from 'teddyswap-sdk'
 import React, { useMemo, useState } from 'react'
 import { X } from 'react-feather'
 import styled from 'styled-components'
@@ -23,7 +23,7 @@ const ContentWrapper = styled(AutoColumn)`
 
 const ModalUpper = styled(DataCard)`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  background: radial-gradient(76.02% 75.41% at 1.84% 0%, #f97316 0%, #e84142 100%);
+  background: radial-gradient(76.02% 75.41% at 1.84% 0%, #f97316 0%, #FFC107 100%);
   padding: 0.5rem;
 `
 
@@ -45,7 +45,7 @@ const AddPNG = styled.span`
   align-items: center;
   text-align: center;
   background-color: ${({ theme }) => theme.bg3};
-  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #e84142 100%), #edeef2;
+  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #FFC107 100%), #edeef2;
   border-radius: 12px;
   white-space: nowrap;
   cursor: pointer;

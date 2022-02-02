@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react'
 import { Text, Box, Button } from '@pangolindex/components'
-import { ChainId } from 'pizzaswap-sdk'
+import { ChainId } from 'teddyswap-sdk'
 import { Plus } from 'react-feather'
 import { ThemeContext } from 'styled-components'
 import { LINK, PNG, TIME, AAVEe, APEIN, BIFI, PEFI } from 'src/constants'

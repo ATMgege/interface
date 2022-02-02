@@ -1,4 +1,4 @@
-import { ChainId } from 'pizzaswap-sdk'
+import { ChainId } from 'teddyswap-sdk'
 import MULTICALL_ABI from './abi.json'
 
 //TODO: ORANGE MultiCall

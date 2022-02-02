@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from 'pizzaswap-sdk'
+import { ChainId, TokenAmount } from 'teddyswap-sdk'
 import React, { useState, useRef } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'
@@ -7,8 +7,8 @@ import { darken } from 'polished'
 import { useTranslation } from 'react-i18next'
 // import { ChevronDown } from 'react-feather'
 import styled from 'styled-components'
-import Logo from '../../assets/images/pizza_logo.png'
-import LogoDark from '../../assets/images/pizza_logo.png'
+import Logo from '../../assets/images/logo.png'
+import LogoDark from '../../assets/images/logo.png'
 import SwapIcon from '../../assets/images/index/swap_icon.png';
 import PoolIcon from '../../assets/images/index/pool_icon.png';
 import FarmIcon from '../../assets/images/index/farm_icon.png';
@@ -139,7 +139,7 @@ const PNGAmount = styled(AccountElement)`
   height: 36px;
   font-weight: 500;
   background-color: ${({ theme }) => theme.bg3};
-  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #e84142 100%), #edeef2;
+  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #FFC107 100%), #edeef2;
 `
 
 const PNGWrapper = styled.span`
@@ -353,7 +353,7 @@ export default function Header() {
         <HeaderLinks>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
             <NavItem>
-              <img src={SwapIcon} alt="logo" />
+              {/* <img src={SwapIcon} alt="logo" /> */}
               {t('header.swap')}
             </NavItem>
           </StyledNavLink>
@@ -372,7 +372,7 @@ export default function Header() {
             }
           >
             <NavItem>
-              <img width={'24px'} src={PoolIcon} alt="logo" />
+              {/* <img width={'24px'} src={PoolIcon} alt="logo" /> */}
               {t('header.pool')}
             </NavItem>
           </StyledNavLink>
@@ -402,7 +402,7 @@ export default function Header() {
             isActive={(match, { pathname }) => Boolean(match) || pathname.startsWith('/png')}
           >
             <NavItem>
-              <img width={'24px'} src={FarmIcon} alt="logo" />
+              {/* <img width={'24px'} src={FarmIcon} alt="logo" /> */}
               {t('header.farm')}
             </NavItem>
           </StyledNavLink>
@@ -419,7 +419,7 @@ export default function Header() {
           </StyledExternalLink> */}
           <StyledExternalLink id={`info-nav-link`} href={ANALYTICS_PAGE}>
             <NavItem>
-              <img width={'24px'} src={ChartIcon} alt="logo" />
+              {/* <img width={'24px'} src={ChartIcon} alt="logo" /> */}
               {t('header.charts')}
               {/* <span style={{ fontSize: '11px' }}>↗</span> */}
             </NavItem>

@@ -4,7 +4,7 @@ import { RowBetween } from '../Row'
 import styled from 'styled-components'
 import { TYPE, StyledInternalLink } from '../../theme'
 import DoubleCurrencyLogo from '../DoubleLogo'
-import { CBNB, Token } from 'pizzaswap-sdk'
+import { CBNB, Token } from 'teddyswap-sdk'
 import { ButtonPrimary } from '../Button'
 import { DoubleSideStakingInfo, useMinichefPools } from '../../state/stake/hooks'
 import { useColor } from '../../hooks/useColor'
@@ -182,7 +182,7 @@ export default function SidePoolItem({
 //           <TYPE.white>{swapFeeApr && !stakingInfo.isPeriodFinished ? `${swapFeeApr}%` : '-'}</TYPE.white>
 //         </RowBetween>
 //         <RowBetween>
-//           <TYPE.white>PIZA Rewards APR</TYPE.white>
+//           <TYPE.white>Teddy Rewards APR</TYPE.white>
 //           <TYPE.white>{stakingApr && !stakingInfo.isPeriodFinished ? `${stakingApr}%` : '-'}</TYPE.white>
 //         </RowBetween>
 //         <RowBetween>
@@ -211,7 +211,7 @@ export default function SidePoolItem({
 //               </span>
 //               {`${stakingInfo.rewardRate
 //                 ?.multiply(`${60 * 60 * 24 * 7}`)
-//                 ?.toSignificant(4, { groupSeparator: ',' })} PIZA / week`}
+//                 ?.toSignificant(4, { groupSeparator: ',' })} Teddy / week`}
 //             </TYPE.black>
 //           </BottomSection>
 //         </>

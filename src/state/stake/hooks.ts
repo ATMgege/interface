@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WBNB, Pair, Percent } from 'pizzaswap-sdk'
+import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WBNB, Pair, Percent } from 'teddyswap-sdk'
 import { useMemo, useEffect, useState } from 'react'
 import { PNG, USDTe, USDCe, DAIe, MINICHEF_ADDRESS, BIG_INT_ZERO, BIG_INT_TWO, BIG_INT_ONE } from '../../constants'
 import { STAKING_REWARDS_INTERFACE } from '../../constants/abis/staking-rewards'

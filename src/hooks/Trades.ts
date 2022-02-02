@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'pizzaswap-sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'teddyswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

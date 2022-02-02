@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { ChainId, Token, TokenAmount } from 'pizzaswap-sdk'
+import { ChainId, Token, TokenAmount } from 'teddyswap-sdk'
 import { useTokenContract } from '../hooks/useContract'
 import { useSingleCallResult } from '../state/multicall/hooks'
 import { PNG } from '../constants'

@@ -8,7 +8,7 @@ import { TYPE, CloseIcon } from '../../theme'
 import { ButtonConfirmed, ButtonError } from '../Button'
 import ProgressCircles from '../ProgressSteps'
 import CurrencyInputPanel from '../CurrencyInputPanel'
-import { TokenAmount } from 'pizzaswap-sdk'
+import { TokenAmount } from 'teddyswap-sdk'
 import { useActiveWeb3React } from '../../hooks'
 import { maxAmountSpend } from '../../utils/maxAmountSpend'
 import { usePngContract, useStakingContract } from '../../hooks/useContract'
@@ -92,7 +92,7 @@ export default function StakingModalSingleSide({
           .stake(`0x${parsedAmount.raw.toString(16)}`)
           .then((response: TransactionResponse) => {
             addTransaction(response, {
-              summary: t('earnPage.stakeStakingTokens', { symbol: 'PIZA' })
+              summary: t('earnPage.stakeStakingTokens', { symbol: 'Teddy' })
             })
             setHash(response.hash)
           })
@@ -111,7 +111,7 @@ export default function StakingModalSingleSide({
           )
           .then((response: TransactionResponse) => {
             addTransaction(response, {
-              summary: t('earnPage.stakeStakingTokens', { symbol: 'PIZA' })
+              summary: t('earnPage.stakeStakingTokens', { symbol: 'Teddy' })
             })
             setHash(response.hash)
           })
@@ -255,7 +255,7 @@ export default function StakingModalSingleSide({
       {attempting && !hash && (
         <LoadingView onDismiss={wrappedOnDismiss}>
           <AutoColumn gap="12px" justify={'center'}>
-            <TYPE.largeHeader>{t('earn.depositingToken', { symbol: 'PIZA' })}</TYPE.largeHeader>
+            <TYPE.largeHeader>{t('earn.depositingToken', { symbol: 'Teddy' })}</TYPE.largeHeader>
             <TYPE.body fontSize={20}>{parsedAmount?.toSignificant(4)} PNG</TYPE.body>
           </AutoColumn>
         </LoadingView>

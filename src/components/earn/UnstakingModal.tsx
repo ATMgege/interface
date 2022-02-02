@@ -101,7 +101,7 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo, version
               <TYPE.body fontWeight={600} fontSize={36}>
                 {<FormattedCurrencyAmount currencyAmount={stakingInfo?.earnedAmount} />}
               </TYPE.body>
-              <TYPE.body>{t('earn.unclaimedReward', { symbol: 'PIZA' })}</TYPE.body>
+              <TYPE.body>{t('earn.unclaimedReward', { symbol: 'Teddy' })}</TYPE.body>
             </AutoColumn>
           )}
           <TYPE.subHeader style={{ textAlign: 'center' }}>{t('earn.whenYouWithdrawWarning')}</TYPE.subHeader>
@@ -122,7 +122,7 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo, version
             <TYPE.body fontSize={20}>
               {t('earn.claimingReward', {
                 amount: stakingInfo?.earnedAmount?.toSignificant(4),
-                symbol: 'PIZA'
+                symbol: 'Teddy'
               })}
             </TYPE.body>
           </AutoColumn>
@@ -133,7 +133,7 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo, version
           <AutoColumn gap="12px" justify={'center'}>
             <TYPE.largeHeader>{t('earn.transactionSubmitted')}</TYPE.largeHeader>
             <TYPE.body fontSize={20}>{t('earn.withdrewStakingToken', { symbol: 'PZL' })}</TYPE.body>
-            <TYPE.body fontSize={20}>{t('earn.claimedReward', { symbol: 'PIZA' })}</TYPE.body>
+            <TYPE.body fontSize={20}>{t('earn.claimedReward', { symbol: 'Teddy' })}</TYPE.body>
           </AutoColumn>
         </SubmittedView>
       )}

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@pangolindex/components'
-import { JSBI } from 'pizzaswap-sdk'
+import { JSBI } from 'teddyswap-sdk'
 import { useTranslation } from 'react-i18next'
 import { Card, CardHeader, CardColumn, CardStats, CardButtons, TokenName, DetailButton, StakeButton } from './styleds'
 import { SingleSideStaking, SingleSideStakingInfo } from 'src/state/stake/hooks'

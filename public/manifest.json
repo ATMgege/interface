@@ -1,6 +1,6 @@
 {
-  "short_name": "Half Pizza",
-  "name": "Half Pizza",
+  "short_name": "Teddy Swap",
+  "name": "Teddy Swap",
   "icons": [
     {
       "src": "./images/192x192_App_Icon.png",
@@ -17,6 +17,6 @@
   ],
   "orientation": "portrait",
   "display": "standalone",
-  "theme_color": "#ff4d4f",
+  "theme_color": "#FFC107",
   "background_color": "#fff"
 }

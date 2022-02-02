@@ -1,7 +1,7 @@
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, CBNB, Percent, WBNB } from 'pizzaswap-sdk'
+import { Currency, currencyEquals, CBNB, Percent, WBNB } from 'teddyswap-sdk'
 import React, { useCallback, useContext, useMemo, useState } from 'react'
 import { ArrowDown, Plus } from 'react-feather'
 import ReactGA from 'react-ga'
@@ -42,7 +42,7 @@ import { Field } from '../../state/burn/actions'
 import { useWalletModalToggle } from '../../state/application/hooks'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { BigNumber } from '@ethersproject/bignumber'
-import { ChainId } from 'pizzaswap-sdk'
+import { ChainId } from 'teddyswap-sdk'
 import { useTranslation } from 'react-i18next'
 
 export default function RemoveLiquidity({
@@ -130,7 +130,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' }
     ]
     const domain = {
-      name: 'Pizza LP',
+      name: 'Teddy LP',
       version: '1',
       chainId: chainId,
       verifyingContract: pair.liquidityToken.address

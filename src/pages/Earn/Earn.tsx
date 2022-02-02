@@ -13,7 +13,7 @@ import { CardSection, DataCard, CardNoise, CardBGImage } from '../../components/
 import Loader from '../../components/Loader'
 import { Table } from '../../components/Table'
 import { useActiveWeb3React } from '../../hooks'
-import { JSBI } from 'pizzaswap-sdk'
+import { JSBI } from 'teddyswap-sdk'
 import { useTranslation } from 'react-i18next'
 import { SearchInput } from '../../components/SearchModal/styleds'
 import useDebounce from '../../hooks/useDebounce'

@@ -10,7 +10,7 @@ import { currencyId } from '../../utils/currencyId'
 import { Break } from './styled'
 import { useTranslation } from 'react-i18next'
 import CurrencyLogo from '../CurrencyLogo'
-import { JSBI } from "pizzaswap-sdk";
+import { JSBI } from "teddyswap-sdk";
 
 const StatContainer = styled.div`
   display: flex;

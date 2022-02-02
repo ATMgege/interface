@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Text, Box, TextInput, Button, CurrencyLogo } from '@pangolindex/components'
-import { Token } from 'pizzaswap-sdk'
+import { Token } from 'teddyswap-sdk'
 import { AddInputWrapper, PopoverContainer, RowWrapper } from './styled'
 import Scrollbars from 'react-custom-scrollbars'
 import { useTranslation } from 'react-i18next'

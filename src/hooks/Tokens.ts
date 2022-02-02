@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, CBNB, Token, currencyEquals } from 'pizzaswap-sdk'
+import { Currency, CBNB, Token, currencyEquals } from 'teddyswap-sdk'
 import { useMemo } from 'react'
 import { useSelectedTokenList } from '../state/lists/hooks'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'

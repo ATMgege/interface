@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, CBNB, InsufficientInputAmountError, JSBI, Pair, Percent, Price, TokenAmount } from 'pizzaswap-sdk'
+import { Currency, CurrencyAmount, CBNB, InsufficientInputAmountError, JSBI, Pair, Percent, Price, TokenAmount } from 'teddyswap-sdk'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { PairState, usePair } from '../../data/Reserves'

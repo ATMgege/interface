@@ -339,7 +339,7 @@
     "unclaimedReward": "Talep edilmemiş {{ symbol }}’leriniz",
     "claim": "Talep Et",
     "rewardPerWeek": " {{ symbol }} / hafta",
-    "automagically": "Bir çekim işlemi yaptığınızda sözleşme otomatik olarak PIZA'lerinizi sizin adınıza talep edecektir!",
+    "automagically": "Bir çekim işlemi yaptığınızda sözleşme otomatik olarak Teddy'lerinizi sizin adınıza talep edecektir!",
     "deposit": "Yatır",
     "depositStakingTokens": "{{ symbol }} Tokeni Yatır",
     "stake": "Stake edin",

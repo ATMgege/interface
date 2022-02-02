@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WBNB } from 'pizzaswap-sdk'
+import { ChainId, JSBI, Percent, Token, WBNB } from 'teddyswap-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { injected, walletlink, walletconnect } from '../connectors'
@@ -7,12 +7,12 @@ import { injected, walletlink, walletconnect } from '../connectors'
 export const GAS_PRICE = 6
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.BSCTestnet]: '0x60Eda46BD29eAc062596061221e9167356cBC8B2',
-  [ChainId.BSC]: '0x00F9EBd1Cc6931105AdBf66EaCe1b69312Fe28FC'
+  [ChainId.BSCTestnet]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64',
+  [ChainId.BSC]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64'
 }
 
 export const LANDING_PAGE = 'https://halfpizza.com/about'
-export const ANALYTICS_PAGE = 'https://info.pizaswap.com'
+export const ANALYTICS_PAGE = 'https://info.Teddyswap.com'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
@@ -37,7 +37,7 @@ export const PNG: { [chainId in ChainId]: Token } = {
     'PNG',
     'Pangolin'
   ),
-  [ChainId.BSC]: new Token(ChainId.BSC, '0xfc646d0b564bf191b3d3adf2b620a792e485e6da', 18, 'PIZA', 'PIZA')
+  [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'Teddy', 'Teddy')
 }
 
 export const ETH: { [chainId in ChainId]: Token } = {
@@ -45,9 +45,9 @@ export const ETH: { [chainId in ChainId]: Token } = {
   [ChainId.BSC]: new Token(ChainId.BSC, '0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15', 18, 'ETH', 'Ether')
 }
 
-export const PIZA: { [chainId in ChainId]: Token } = {
-  [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'PIZA', 'PIZA'),
-  [ChainId.BSC]: new Token(ChainId.BSC, '0xfc646d0b564bf191b3d3adf2b620a792e485e6da', 18, 'PIZA', 'PIZA')
+export const Teddy: { [chainId in ChainId]: Token } = {
+  [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'Teddy', 'TeddyDoge'),
+  [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'Teddy', 'Teddy')
 }
 
 export const WETHe: { [chainId in ChainId]: Token } = {
@@ -528,9 +528,9 @@ const WBNB_AND_PNG_ONLY: ChainTokenList = {
   [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet]],
   [ChainId.BSC]: [WBNB[ChainId.BSC]]
 }
-const WBNB_AND_PIZA_ONLY: ChainTokenList = {
-  [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], PIZA[ChainId.BSCTestnet]],
-  [ChainId.BSC]: [WBNB[ChainId.BSC], PIZA[ChainId.BSC]]
+const WBNB_AND_Teddy_ONLY: ChainTokenList = {
+  [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], Teddy[ChainId.BSCTestnet]],
+  [ChainId.BSC]: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]]
 }
 
 // used to construct intermediary pairs for trading
@@ -549,7 +549,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
-  ...WBNB_AND_PIZA_ONLY
+  ...WBNB_AND_Teddy_ONLY
 }
 
 // used to construct the list of all pairs we consider by default in the frontend

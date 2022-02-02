@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from 'pizzaswap-sdk'
+import { ChainId, TokenAmount } from 'teddyswap-sdk'
 import React, { useState, useRef } from 'react'
 import { useActiveWeb3React } from '../../hooks'
 import { useETHBalances, useAggregatePngBalance } from '../../state/wallet/hooks'

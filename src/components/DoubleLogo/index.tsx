@@ -1,4 +1,4 @@
-import { Currency } from 'pizzaswap-sdk'
+import { Currency } from 'teddyswap-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

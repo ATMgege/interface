@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'pizzaswap-sdk'
+import { currencyEquals, Trade } from 'teddyswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

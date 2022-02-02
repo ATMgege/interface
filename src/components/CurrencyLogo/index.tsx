@@ -1,4 +1,4 @@
-import { Currency, CBNB, Token } from 'pizzaswap-sdk'
+import { Currency, CBNB, Token } from 'teddyswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
@@ -8,7 +8,7 @@ import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
 const getTokenLogoURL = (address: string) => {
-  if (address.toLowerCase() == '0xFC646D0B564bf191B3d3adF2B620a792E485e6Da'.toLowerCase()) {
+  if (address.toLowerCase() == '0x10f6f2b97f3ab29583d9d38babf2994df7220c21'.toLowerCase()) {
     return `/logo.png`
   }
   return `https://tokens.pancakeswap.finance/images/${address}.png`

@@ -70,11 +70,11 @@ export function colors(darkMode: boolean): Colors {
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#2172E5' : '#FF4D4F',
-    primary2: darkMode ? '#3680E7' : '#FF4D4F',
-    primary3: darkMode ? '#4D8FEA' : '#FF4D4F',
-    primary4: darkMode ? '#376bad70' : '#FF4D4F',
-    primary5: darkMode ? '#153d6f70' : '#FF4D4F',
+    primary1: darkMode ? '#2172E5' : '#FFC107',
+    primary2: darkMode ? '#3680E7' : '#FFC107',
+    primary3: darkMode ? '#4D8FEA' : '#FFC107',
+    primary4: darkMode ? '#376bad70' : '#FFC107',
+    primary5: darkMode ? '#153d6f70' : '#FFC107',
     primary6: darkMode ? '#2172E5' : '#FFFFFF',
 
     // color text
@@ -93,12 +93,12 @@ export function colors(darkMode: boolean): Colors {
     yellow2: '#F3841E',
     blue1: '#2172E5',
 
-    avaxRed: '#E84142',
+    avaxRed: '#FFC107',
 
     // beta theme color
     color1: '#E67826',
     color2: '#707070',
-    color3: '#FF4D4F'
+    color3: '#FFC107'
 
     // dont wanna forget these blue yet
     // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
@@ -154,12 +154,12 @@ export function betaColors(darkMode: boolean): BetaColors {
     bg8: darkMode ? '#212427' : '#212427',
 
     //primary colors
-    primary1: darkMode ? '#FF4D4F' : '#FF4D4F',
-    primary2: darkMode ? '#FF4D4F' : '#FF4D4F',
-    primary3: darkMode ? '#FF4D4F' : '#FF4D4F',
-    primary4: darkMode ? '#FF4D4F' : '#FF4D4F',
-    primary5: darkMode ? '#FF4D4F' : '#FF4D4F',
-    primary6: darkMode ? '#FF4D4F' : '#FFFFFF',
+    primary1: darkMode ? '#FFC107' : '#FFC107',
+    primary2: darkMode ? '#FFC107' : '#FFC107',
+    primary3: darkMode ? '#FFC107' : '#FFC107',
+    primary4: darkMode ? '#FFC107' : '#FFC107',
+    primary5: darkMode ? '#FFC107' : '#FFC107',
+    primary6: darkMode ? '#FFC107' : '#FFFFFF',
 
     // color text
     primaryText1: darkMode ? '#6da8ff' : '#ffffff',
@@ -169,10 +169,10 @@ export function betaColors(darkMode: boolean): BetaColors {
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
     secondary3: darkMode ? '#17000b26' : '#FDEAF1',
 
-    yellow2: '#FF4D4F',
+    yellow2: '#FFC107',
 
     switch: {
-      onColor: '#FF4D4F',
+      onColor: '#FFC107',
       offColor: '#CED0D9',
       backgroundColor: '#717171'
     }

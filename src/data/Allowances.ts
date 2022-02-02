@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'pizzaswap-sdk'
+import { Token, TokenAmount } from 'teddyswap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

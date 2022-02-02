@@ -1,6 +1,6 @@
 // TODO: Actually calculate price
 
-import { ChainId, Currency, currencyEquals, JSBI, Price, WBNB } from 'pizzaswap-sdk'
+import { ChainId, Currency, currencyEquals, JSBI, Price, WBNB } from 'teddyswap-sdk'
 import { useMemo } from 'react'
 import { USDCe } from '../constants'
 import { PairState, usePairs } from '../data/Reserves'

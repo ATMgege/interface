@@ -8,7 +8,7 @@ import { TYPE, CloseIcon } from '../../theme'
 import { ButtonConfirmed, ButtonError } from '../Button'
 import ProgressCircles from '../ProgressSteps'
 import CurrencyInputPanel from '../CurrencyInputPanel'
-import { TokenAmount, Pair } from 'pizzaswap-sdk'
+import { TokenAmount, Pair } from 'teddyswap-sdk'
 import { useActiveWeb3React } from '../../hooks'
 import { maxAmountSpend } from '../../utils/maxAmountSpend'
 import { useBridgeMigratorContract, usePairContract } from '../../hooks/useContract'
@@ -140,7 +140,7 @@ export default function BridgeMigratorModal({ isOpen, onDismiss, pairFrom, pairT
       { name: 'verifyingContract', type: 'address' }
     ]
     const domain = {
-      name: 'Pizza LP',
+      name: 'Teddy LP',
       version: '1',
       chainId: chainId,
       verifyingContract: pairContract.address

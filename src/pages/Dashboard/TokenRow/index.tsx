@@ -57,7 +57,7 @@ export const TokenDiff = styled(Box)<{ isPositive: boolean }>`
   font-size: 10px;
   line-height: 15px;
 
-  color: ${props => (props.isPositive ? '#18C145' : '#e84142')};
+  color: ${props => (props.isPositive ? '#18C145' : '#FFC107')};
 `
 
 export interface TokenRowProps {
@@ -88,7 +88,7 @@ export default function TokenRow({ name = 'PNG', diffPercent = 1.68, onClick }: 
         </TokenName>
         <TokenMiniChart>
           <LineChart width={82} height={18} data={data}>
-            <Line type="monotone" dataKey="value" stroke={diffPercent >= 0 ? '#18C145' : '#E84142'} dot={false} />
+            <Line type="monotone" dataKey="value" stroke={diffPercent >= 0 ? '#18C145' : '#FFC107'} dot={false} />
           </LineChart>
         </TokenMiniChart>
         <TokenValue>

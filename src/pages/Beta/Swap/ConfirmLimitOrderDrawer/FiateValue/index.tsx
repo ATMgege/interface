@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent, JSBI } from 'pizzaswap-sdk'
+import { CurrencyAmount, Percent, JSBI } from 'teddyswap-sdk'
 import React, { useMemo, useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import { warningSeverity } from 'src/utils/prices'

@@ -312,7 +312,7 @@
     "claim": "Beanspruchen "
   },
   "earnPage": {
-    "pangolinLiquidityMining": "Pizza LP-Mining",
+    "pangolinLiquidityMining": "Teddy LP-Mining",
     "pangolinLiquidityStaking": "Pangolin PNG staking",
     "depositPangolinLiquidity": "Zahle deine Pangolin Liquiditätsprovider-Token (PZL) ein, um PNG, den Governance-Token des Pangolin-Protokolls zu erhalten.",
     "depositPangolinStaking": "Deposit and stake your PNG tokens to earn more tokens.",
@@ -331,7 +331,7 @@
     "pngStaking": "PNG Staking",
     "totalStaked": "Insgesamt gestakt",
     "poolRate": "Pool-Rate",
-    "step1": "Schritt 1. Hole dir Pizza LP-Token (PZL)",
+    "step1": "Schritt 1. Hole dir Teddy LP-Token (PZL)",
     "pglTokenRequired": "Es sind PZL-Token erforderlich. Sobald du Liquidität zu dem {{ poolHandle }} Pool hinzugefügt hast, kannst du deine Liquiditätsprovider-Token auf dieser Seite staken.",
     "addPoolLiquidity": "Füge {{ poolHandle }} Liquidität hinzu",
     "liquidityDeposits": "Deine Liquiditätseinzahlungen",
@@ -339,7 +339,7 @@
     "unclaimedReward": "Deine unbeanspruchten {{ symbol }}",
     "claim": "Beanspruchen",
     "rewardPerWeek": " {{ symbol }} / Woche",
-    "automagically": "Wenn du abbuchst, wird der Smart Contract automagisch PIZA für dich beanspruchen!",
+    "automagically": "Wenn du abbuchst, wird der Smart Contract automagisch Teddy für dich beanspruchen!",
     "deposit": "Einzahlen",
     "depositStakingTokens": "Zahle {{ symbol }}-Token ein",
     "stake": "Stake",

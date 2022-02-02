@@ -1,4 +1,4 @@
-import { ChainId, WBNB } from 'pizzaswap-sdk'
+import { ChainId, WBNB } from 'teddyswap-sdk'
 import {
   PNG,
   DAI,
@@ -94,12 +94,12 @@ import {
   CLY,
   COOK,
   SKILL,
-  PIZA
+  Teddy
 } from '../../constants'
 import { BridgeMigrator, DoubleSideStaking, Migration } from './hooks'
 export const DOUBLE_SIDE_STAKING: { [key: string]: DoubleSideStaking } = {
-  WBNB_PIZA_V2: {
-    tokens: [WBNB[ChainId.BSC], PIZA[ChainId.BSC]],
+  WBNB_Teddy_V2: {
+    tokens: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]],
     stakingRewardAddress: MINICHEF_ADDRESS,
     version: 2
   }

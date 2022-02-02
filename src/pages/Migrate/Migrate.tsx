@@ -14,7 +14,7 @@ import {
   StatisticImage,
   HideSmall
 } from './styleds'
-import { Pair } from 'pizzaswap-sdk'
+import { Pair } from 'teddyswap-sdk'
 import { useParams } from 'react-router-dom'
 import { useActiveWeb3React } from '../../hooks'
 import { Dots } from '../../components/swap/styleds'
