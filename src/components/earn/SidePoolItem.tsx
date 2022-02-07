@@ -74,8 +74,8 @@ export default function SidePoolItem({
   // get the color of the token
   const backgroundColor = useColor(token)
   // TODO: Orange NEED FIX
-  // const totalStakedInUsd = stakingInfo.totalStakedInUsd.toSignificant(4, { groupSeparator: ',' })
-  const totalStakedInUsd = '-'
+  const totalStakedInUsd = stakingInfo.totalStakedInUsd.toSignificant(4, { groupSeparator: ',' })
+  // const totalStakedInUsd = '-'
   const pairAddress = stakingInfo?.stakedAmount?.token?.address
   return (
     <StyledInternalLink
