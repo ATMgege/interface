@@ -12,7 +12,7 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
 }
 
 export const LANDING_PAGE = 'https://teddydoge.finance/'
-export const ANALYTICS_PAGE = '#'
+export const ANALYTICS_PAGE = 'https://info.teddyswap.co/'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
