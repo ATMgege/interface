@@ -7,12 +7,13 @@ import { darken } from 'polished'
 import { useTranslation } from 'react-i18next'
 // import { ChevronDown } from 'react-feather'
 import styled from 'styled-components'
+import SwitchNetwork from '../switchNetwork'
 import Logo from '../../assets/images/logo.png'
 import LogoDark from '../../assets/images/logo.png'
-import SwapIcon from '../../assets/images/index/swap_icon.png';
-import PoolIcon from '../../assets/images/index/pool_icon.png';
-import FarmIcon from '../../assets/images/index/farm_icon.png';
-import ChartIcon from '../../assets/images/index/chars_icon.png';
+import SwapIcon from '../../assets/images/index/swap_icon.png'
+import PoolIcon from '../../assets/images/index/pool_icon.png'
+import FarmIcon from '../../assets/images/index/farm_icon.png'
+import ChartIcon from '../../assets/images/index/chars_icon.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances, useAggregatePngBalance } from '../../state/wallet/hooks'
@@ -48,7 +49,7 @@ const HeaderFrame = styled.div`
   // padding: 1rem;
   padding: 5px 28px;
   z-index: 2;
-  background: #FFFFFF;
+  background: #ffffff;
   ${({ theme }) => theme.mediaWidth.upToMedium`
     grid-template-columns: 1fr;
     padding: 0 1rem;
@@ -139,7 +140,7 @@ const PNGAmount = styled(AccountElement)`
   height: 36px;
   font-weight: 500;
   background-color: ${({ theme }) => theme.bg3};
-  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #FFC107 100%), #edeef2;
+  background: radial-gradient(174.47% 188.91% at 1.84% 0%, #f97316 0%, #ffc107 100%), #edeef2;
 `
 
 const PNGWrapper = styled.span`
@@ -191,12 +192,11 @@ const Title = styled.a`
   :hover {
     cursor: pointer;
   }
-
 `
 
 const PngIcon = styled.div`
   transition: transform 0.3s ease;
-  &>img{
+  & > img {
     width: 46px;
     height: 46px;
   }
@@ -226,7 +226,7 @@ const StyledNavLink = styled(NavLink).attrs({
     border-radius: 12px;
     font-weight: 600;
     color: ${({ theme }) => theme.text1};
-    background: #FFEAEC;
+    background: #ffeaec;
     border-radius: 13px;
   }
 
@@ -240,7 +240,6 @@ const StyledNavLink = styled(NavLink).attrs({
     padding: 7px 7px;
 `};
 `
-
 
 // const StyledLink = styled.div<{ isActive: boolean }>`
 //   ${({ theme }) => theme.flexRowNoWrap}
@@ -265,7 +264,7 @@ const StyledNavLink = styled(NavLink).attrs({
 
 const StyledExternalLink = styled(ExternalLink).attrs({
   activeClassName
-}) <{ isActive?: boolean }>`
+})<{ isActive?: boolean }>`
   ${({ theme }) => theme.flexRowNoWrap}
   align-items: left;
   border-radius: 3rem;
@@ -300,13 +299,12 @@ const NavItem = styled.div`
   justify-content: center;
   justify-items: center;
   align-items: center;
-  &>img{
+  & > img {
     width: 30px;
     height: 30px;
     margin: 0 0 6px;
   }
 `
-
 
 // const NarrowMenuFlyout = styled(MenuFlyout)`
 //   min-width: 8.125rem;
@@ -428,11 +426,7 @@ export default function Header() {
       </HeaderRow>
       <HeaderControls>
         <HeaderElement>
-          <HideSmall>
-            {chainId && NETWORK_LABELS[chainId] && (
-              <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
-            )}
-          </HideSmall>
+          <SwitchNetwork />
           {/* //TODO:ORANGE */}
           {/* {aggregateBalance && (
             <PNGWrapper onClick={() => setShowPngBalanceModal(true)}>

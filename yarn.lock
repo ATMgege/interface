@@ -18331,7 +18331,7 @@ tar@^4.0.2:
     safe-buffer "^5.2.1"
     yallist "^3.1.1"
 
-teddyswap-sdk@^1.4.0:
+teddyswap-sdk@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/teddyswap-sdk/-/teddyswap-sdk-1.4.1.tgz#66087cf3104b0e3ac0f43dde41346a444053892c"
   integrity sha512-Xs5Ld9uhdK5uGGKUFi6yIUSv2/Q69RkSzCUOeuomdVQs/NjMOUq8dMDReNhSbv8fP+xNFJUHg0KaPCJOf1p7fg==
