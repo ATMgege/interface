@@ -6,7 +6,7 @@ import { NetworkConnector } from './NetworkConnector'
 
 const NETWORK_URL = process.env.REACT_APP_NETWORK_URL
 
-export const NETWORK_CHAIN_ID: number = parseInt(process.env.REACT_APP_CHAIN_ID ?? '56')
+export const NETWORK_CHAIN_ID: number = parseInt(process.env.REACT_APP_CHAIN_ID ?? '1')
 
 if (typeof NETWORK_URL === 'undefined') {
   throw new Error(`REACT_APP_NETWORK_URL must be a defined environment variable`)
@@ -23,18 +23,18 @@ export function getNetworkLibrary(): Web3Provider {
 }
 
 export const injected = new InjectedConnector({
-  supportedChainIds: [43113, 43114, 56, 97]
+  supportedChainIds: [1]
 })
 
 export const walletlink = new WalletLinkConnector({
   url: NETWORK_URL,
-  appName: 'Pizza Swap',
+  appName: 'Teddy Swap',
   appLogoUrl: 'https://raw.githubusercontent.com/pangolindex/interface/master/public/images/384x384_App_Icon.png'
 })
 
 export const walletconnect = new WalletConnectConnector({
   rpc: {
-    56: NETWORK_URL
+    1: NETWORK_URL
   },
   qrcode: true,
   bridge: 'https://bridge.walletconnect.org'

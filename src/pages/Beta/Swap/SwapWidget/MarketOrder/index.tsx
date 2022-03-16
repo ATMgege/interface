@@ -23,7 +23,7 @@ import { useSwapCallback } from 'src/hooks/useSwapCallback'
 import { computeTradePriceBreakdown, warningSeverity } from 'src/utils/prices'
 import confirmPriceImpactWithoutFee from 'src/components/swap/confirmPriceImpactWithoutFee'
 import { useIsSelectedAEBToken, useSelectedTokenList, useTokenList } from 'src/state/lists/hooks'
-import { PANCAKE_LIST } from 'src/constants/lists'
+import { COIN_LIST } from 'src/constants/lists'
 import { TRUSTED_TOKEN_ADDRESSES } from 'src/constants'
 import { isTokenOnList } from 'src/utils'
 import TokenWarningModal from 'src/components/TokenWarningModal'
@@ -272,7 +272,7 @@ const MarketOrder: React.FC<Props> = ({ swapType, setSwapType }) => {
   const isAEBToken = useIsSelectedAEBToken()
 
   const selectedTokens = useSelectedTokenList()
-  const whitelistedTokens = useTokenList([PANCAKE_LIST])
+  const whitelistedTokens = useTokenList([COIN_LIST])
 
   const isTrustedToken = useCallback(
     (token: Token) => {

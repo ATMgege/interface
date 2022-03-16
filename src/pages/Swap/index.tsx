@@ -47,7 +47,7 @@ import { useTranslation } from 'react-i18next'
 import { useIsSelectedAEBToken, useSelectedTokenList, useTokenList } from '../../state/lists/hooks'
 import { DeprecatedWarning } from '../../components/Warning'
 import { isTokenOnList } from '../../utils'
-import { PANCAKE_LIST } from '../../constants/lists'
+import { COIN_LIST } from '../../constants/lists'
 
 const WarningWrapper = styled.div`
   max-width: 420px;
@@ -269,7 +269,7 @@ export default function Swap() {
   const isAEBToken = useIsSelectedAEBToken()
 
   const selectedTokens = useSelectedTokenList()
-  const whitelistedTokens = useTokenList([PANCAKE_LIST])
+  const whitelistedTokens = useTokenList([COIN_LIST])
 
   const isTrustedToken = useCallback(
     (token: Token) => {

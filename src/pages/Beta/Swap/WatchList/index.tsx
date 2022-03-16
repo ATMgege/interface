@@ -3,7 +3,7 @@ import { Text, Box, Button } from '@pangolindex/components'
 import { ChainId } from 'teddyswap-sdk'
 import { Plus } from 'react-feather'
 import { ThemeContext } from 'styled-components'
-import { LINK, PNG, TIME, AAVEe, APEIN, BIFI, PEFI } from 'src/constants'
+import { PNG } from 'src/constants'
 import { useActiveWeb3React } from 'src/hooks'
 import WatchlistRow from './WatchlistRow'
 import { WatchListRoot, GridContainer } from './styleds'
@@ -16,7 +16,7 @@ import useToggle from 'src/hooks/useToggle'
 
 const WatchList = () => {
   const { chainId = ChainId.BSC } = useActiveWeb3React()
-  const coins = [PNG, LINK, TIME, AAVEe, APEIN, BIFI, PEFI].map(coin => coin[chainId])
+  const coins = [PNG].map(coin => coin[chainId])
   const theme = useContext(ThemeContext)
   const [selectedToken, setSelectedToken] = useState(coins[0])
 
