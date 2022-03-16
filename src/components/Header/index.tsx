@@ -2,6 +2,7 @@ import { ChainId, TokenAmount } from 'teddyswap-sdk'
 import React, { useState, useRef } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'
+import SwitchNetwork from '../switchNetwork'
 // import { useLocation } from 'react-router'
 import { darken } from 'polished'
 import { useTranslation } from 'react-i18next'
@@ -426,11 +427,7 @@ export default function Header() {
       </HeaderRow>
       <HeaderControls>
         <HeaderElement>
-          <HideSmall>
-            {chainId && NETWORK_LABELS[chainId] && (
-              <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
-            )}
-          </HideSmall>
+          <SwitchNetwork />
           {/* //TODO:ORANGE */}
           {/* {aggregateBalance && (
             <PNGWrapper onClick={() => setShowPngBalanceModal(true)}>
