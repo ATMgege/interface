@@ -415,6 +415,13 @@ export default function Header() {
           <StyledExternalLink id={`vote-nav-link`} href={'https://pro.olympusdao.finance/'}>
             Bond <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink> */}
+          <StyledExternalLink id={`info-nav-link-bridge`} href={`https://bridge.teddyswap.co`}>
+            <NavItem>
+              {/* <img width={'24px'} src={ChartIcon} alt="logo" /> */}
+              Bridge
+              {/* <span style={{ fontSize: '11px' }}>↗</span> */}
+            </NavItem>
+          </StyledExternalLink>
           <StyledExternalLink id={`info-nav-link`} href={ANALYTICS_PAGE}>
             <NavItem>
               {/* <img width={'24px'} src={ChartIcon} alt="logo" /> */}
