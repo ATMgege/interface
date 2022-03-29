@@ -110,8 +110,8 @@ export default function Header({ onCollapsed }: HeaderProps) {
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
-                {chainId === ChainId.ETH
-                  ? `${userEthBalance?.toSignificant(4)} ETH`
+                {chainId === ChainId.KCC
+                  ? `${userEthBalance?.toSignificant(4)} KCC`
                   : `${userEthBalance?.toSignificant(4)} BNB`}
               </BalanceText>
             ) : null}

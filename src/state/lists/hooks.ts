@@ -35,7 +35,7 @@ export type TokenAddressMap = Readonly<{ [chainId in ChainId]: Readonly<{ [token
  */
 const EMPTY_LIST: TokenAddressMap = {
   [ChainId.BSCTestnet]: {},
-  [ChainId.ETH]: {},
+  [ChainId.KCC]: {},
   [ChainId.BSC]: {}
 }
 

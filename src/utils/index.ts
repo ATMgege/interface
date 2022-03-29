@@ -20,7 +20,7 @@ export function isAddress(value: any): string | false {
 const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   97: 'https://testnet.bscscan.com',
   56: 'https://bscscan.com',
-  1: 'https://etherscan.com'
+  321: 'https://explorer.kcc.io'
 }
 
 export function getEtherscanLink(

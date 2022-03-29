@@ -9,7 +9,7 @@ export const GAS_PRICE = 6
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.BSCTestnet]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64',
   [ChainId.BSC]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64',
-  [ChainId.ETH]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64'
+  [ChainId.KCC]: '0x70748b755fe5BAe7CdC8BE3cc57b7f47fc5B8A64'
 }
 
 export const LANDING_PAGE = 'https://teddydoge.finance/'
@@ -39,19 +39,19 @@ export const PNG: { [chainId in ChainId]: Token } = {
     'Pangolin'
   ),
   [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY'),
-  [ChainId.ETH]: new Token(ChainId.ETH, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY')
+  [ChainId.KCC]: new Token(ChainId.KCC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY')
 }
 
 export const ETH: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'ETH', 'Ether'),
-  [ChainId.ETH]: new Token(ChainId.ETH, ZERO_ADDRESS, 18, 'ETH', 'Ether'),
+  [ChainId.KCC]: new Token(ChainId.KCC, ZERO_ADDRESS, 18, 'ETH', 'Ether'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15', 18, 'ETH', 'Ether')
 }
 
 export const Teddy: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'Teddy', 'TeddyDoge'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY'),
-  [ChainId.ETH]: new Token(ChainId.ETH, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY')
+  [ChainId.KCC]: new Token(ChainId.KCC, '0x10f6f2b97f3ab29583d9d38babf2994df7220c21', 18, 'TEDDY', 'TEDDY')
 }
 
 // export const WETHe: { [chainId in ChainId]: Token } = {
@@ -62,12 +62,12 @@ export const Teddy: { [chainId in ChainId]: Token } = {
 export const USDT: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 6, 'USDT', 'Tether USD'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xde3A24028580884448a5397872046a019649b084', 6, 'USDT', 'Tether USD'),
-  [ChainId.ETH]: new Token(ChainId.ETH, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD')
+  [ChainId.KCC]: new Token(ChainId.KCC, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD')
 }
 
 export const USDTe: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 6, 'USDT.e', 'Tether USD'),
-  [ChainId.ETH]: new Token(ChainId.ETH, ZERO_ADDRESS, 6, 'USDT', 'Tether USD'),
+  [ChainId.KCC]: new Token(ChainId.KCC, ZERO_ADDRESS, 6, 'USDT', 'Tether USD'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xc7198437980c041c805A1EDcbA50c1Ce5db95118', 6, 'USDT.e', 'Tether USD')
 }
 
@@ -83,7 +83,7 @@ export const USDTe: { [chainId in ChainId]: Token } = {
 
 export const LINK: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'LINK', 'ChainLink Token'),
-  [ChainId.ETH]: new Token(ChainId.ETH, ZERO_ADDRESS, 18, 'LINK', 'ChainLink Token'),
+  [ChainId.KCC]: new Token(ChainId.KCC, ZERO_ADDRESS, 18, 'LINK', 'ChainLink Token'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651', 18, 'LINK', 'ChainLink Token')
 }
 
@@ -99,13 +99,13 @@ export const LINK: { [chainId in ChainId]: Token } = {
 
 export const DAIe: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'DAI.e', 'Dai Stablecoin'),
-  [ChainId.ETH]: new Token(ChainId.ETH, ZERO_ADDRESS, 18, 'DAI.e', 'Dai Stablecoin'),
+  [ChainId.KCC]: new Token(ChainId.KCC, ZERO_ADDRESS, 18, 'DAI.e', 'Dai Stablecoin'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70', 18, 'DAI.e', 'Dai Stablecoin')
 }
 
 export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.ETH]: new Token(ChainId.ETH, ZERO_ADDRESS, 18, 'UNI', 'Uniswap'),
+  [ChainId.KCC]: new Token(ChainId.KCC, ZERO_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xf39f9671906d8630812f9d9863bBEf5D523c84Ab', 18, 'UNI', 'Uniswap')
 }
 
@@ -230,7 +230,7 @@ export const UNI: { [chainId in ChainId]: Token } = {
 
 export const USDCe: { [chainId in ChainId]: Token } = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet, ZERO_ADDRESS, 18, 'USDC.e', 'USD Coin'),
-  [ChainId.ETH]: new Token(ChainId.ETH, ZERO_ADDRESS, 18, 'USDC.e', 'USD Coin'),
+  [ChainId.KCC]: new Token(ChainId.KCC, ZERO_ADDRESS, 18, 'USDC.e', 'USD Coin'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', 18, 'USDC.e', 'USD Coin')
 }
 
@@ -537,20 +537,20 @@ export const AIRDROP_ADDRESS: { [chainId in ChainId]?: string } = {
 const WBNB_AND_PNG_ONLY: ChainTokenList = {
   [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet]],
   [ChainId.BSC]: [WBNB[ChainId.BSC]],
-  [ChainId.ETH]: [WBNB[ChainId.ETH]]
+  [ChainId.KCC]: [WBNB[ChainId.KCC]]
 }
 // eslint-disable-next-line @typescript-eslint/camelcase
 const WBNB_AND_Teddy_ONLY: ChainTokenList = {
   [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], Teddy[ChainId.BSCTestnet]],
   [ChainId.BSC]: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]],
-  [ChainId.ETH]: [WBNB[ChainId.ETH], Teddy[ChainId.ETH]]
+  [ChainId.KCC]: [WBNB[ChainId.KCC], Teddy[ChainId.KCC]]
 }
 
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], PNG[ChainId.BSCTestnet]],
   [ChainId.BSC]: [WBNB[ChainId.BSC], PNG[ChainId.BSC], USDTe[ChainId.BSC]],
-  [ChainId.ETH]: [WBNB[ChainId.ETH], PNG[ChainId.ETH], USDT[ChainId.ETH]]
+  [ChainId.KCC]: [WBNB[ChainId.KCC], PNG[ChainId.KCC], USDT[ChainId.KCC]]
 }
 
 /**
@@ -579,7 +579,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
 // these tokens can be directly linked to (via url params) in the swap page without prompting a warning
 export const TRUSTED_TOKEN_ADDRESSES: { readonly [chainId in ChainId]: string[] } = {
   [ChainId.BSCTestnet]: [],
-  [ChainId.ETH]: [],
+  [ChainId.KCC]: [],
   [ChainId.BSC]: [WBNB[ChainId.BSC].address, PNG[ChainId.BSC].address]
 }
 
@@ -634,15 +634,15 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
 export const NetworkContextName = 'NETWORK'
 
 export const AVALANCHE_CHAIN_PARAMS = {
-  chainId: '0x1', // A 0x-prefixed hexadecimal chainId
-  chainName: 'ETH',
+  chainId: '0x141', // A 0x-prefixed hexadecimal chainId
+  chainName: 'KCC Mainnet',
   nativeCurrency: {
-    name: 'ETH',
-    symbol: 'ETH',
+    name: 'KCS',
+    symbol: 'KCS',
     decimals: 18
   },
-  rpcUrls: ['https://mainnet.infura.io/v3/3bb08ee81f4c4931b92bb1f19d31c772'],
-  blockExplorerUrls: ['https://etherscan.com/']
+  rpcUrls: ['https://rpc-mainnet.kcc.network'],
+  blockExplorerUrls: ['https://explorer.kcc.io/']
 }
 
 // default allowed slippage, in bips

@@ -315,11 +315,11 @@ const NavItem = styled.div`
 const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
   [ChainId.BSCTestnet]: 'Testnet',
   [ChainId.BSC]: 'BSC',
-  [ChainId.ETH]: 'ETH'
+  [ChainId.KCC]: 'KCC'
 }
 
 export default function Header() {
-  const { account, chainId = 1 } = useActiveWeb3React()
+  const { account, chainId = 321 } = useActiveWeb3React()
   const { t } = useTranslation()
 
   // const location: any = useLocation()
@@ -466,8 +466,8 @@ export default function Header() {
             {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
                 {/* {userEthBalance?.toSignificant(4)} BNB */}
-                {chainId === ChainId.ETH
-                  ? `${userEthBalance?.toSignificant(4)} ETH`
+                {chainId === ChainId.KCC
+                  ? `${userEthBalance?.toSignificant(4)} KCS`
                   : `${userEthBalance?.toSignificant(4)} BNB`}
               </BalanceText>
             ) : null}

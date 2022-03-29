@@ -5,4 +5,4 @@ export const COIN_LIST = 'https://api.coinmarketcap.com/data-api/v3/uniswap/all.
 
 export const DEFAULT_TOKEN_LISTS_SELECTED: string[] = [COIN_LIST]
 
-export const DEFAULT_TOKEN_LISTS: string[] = [COIN_LIST, AEB_TOKENLIST]
+export const DEFAULT_TOKEN_LISTS: string[] = []

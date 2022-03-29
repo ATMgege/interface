@@ -123,12 +123,8 @@ function addAvalancheNetwork() {
   injected.getProvider().then(provider => {
     provider
       .request({
-        method: 'wallet_switchEthereumChain',
-        params: [
-          {
-            chainId: '0x1'
-          }
-        ]
+        method: 'wallet_addEthereumChain',
+        params: [AVALANCHE_CHAIN_PARAMS]
       })
       .catch((error: any) => {
         console.log(error)
