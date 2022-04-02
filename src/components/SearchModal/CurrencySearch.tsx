@@ -157,10 +157,7 @@ export function CurrencySearch({
           onKeyDown={handleEnter}
           autoComplete="off"
         />
-        {/* // TODO: ORNANGE HACK */}
-        {/* {showCommonBases && (
-          <CommonBases chainId={chainId} onSelect={handleCurrencySelect} selectedCurrency={selectedCurrency} />
-        )} */}
+        {<CommonBases chainId={chainId} onSelect={handleCurrencySelect} selectedCurrency={selectedCurrency} />}
         <RowBetween>
           <Text fontSize={14} fontWeight={500}>
             {t('searchModal.tokenName')}

@@ -542,8 +542,8 @@ const WBNB_AND_PNG_ONLY: ChainTokenList = {
 // eslint-disable-next-line @typescript-eslint/camelcase
 const WBNB_AND_Teddy_ONLY: ChainTokenList = {
   [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], Teddy[ChainId.BSCTestnet]],
-  [ChainId.BSC]: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]],
-  [ChainId.ETH]: [WBNB[ChainId.ETH], Teddy[ChainId.ETH]]
+  [ChainId.BSC]: [Teddy[ChainId.BSC]],
+  [ChainId.ETH]: [Teddy[ChainId.ETH]]
 }
 
 // used to construct intermediary pairs for trading
@@ -579,8 +579,8 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
 // these tokens can be directly linked to (via url params) in the swap page without prompting a warning
 export const TRUSTED_TOKEN_ADDRESSES: { readonly [chainId in ChainId]: string[] } = {
   [ChainId.BSCTestnet]: [],
-  [ChainId.ETH]: [],
-  [ChainId.BSC]: [WBNB[ChainId.BSC].address, PNG[ChainId.BSC].address]
+  [ChainId.ETH]: [PNG[ChainId.BSC].address],
+  [ChainId.BSC]: [PNG[ChainId.BSC].address]
 }
 
 export interface WalletInfo {

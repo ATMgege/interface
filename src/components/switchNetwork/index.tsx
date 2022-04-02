@@ -44,6 +44,10 @@ export default function SwitchNetwork() {
             <Send size={14} />
             BSC
           </MenuItem>
+          <MenuItem id="link" href="https://kcc.teddyswap.co">
+            <Send size={14} />
+            KCC
+          </MenuItem>
           {/* <MenuNavItem id="link" to={'/IDO'}>
             <Calendar size={14} />
             {t('menu.idos')}
