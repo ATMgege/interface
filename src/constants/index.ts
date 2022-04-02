@@ -530,7 +530,7 @@ const WBNB_AND_PNG_ONLY: ChainTokenList = {
 }
 const WBNB_AND_Teddy_ONLY: ChainTokenList = {
   [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], Teddy[ChainId.BSCTestnet]],
-  [ChainId.BSC]: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]]
+  [ChainId.BSC]: [Teddy[ChainId.BSC]]
 }
 
 // used to construct intermediary pairs for trading
