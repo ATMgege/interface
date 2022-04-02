@@ -541,9 +541,9 @@ const WBNB_AND_PNG_ONLY: ChainTokenList = {
 }
 // eslint-disable-next-line @typescript-eslint/camelcase
 const WBNB_AND_Teddy_ONLY: ChainTokenList = {
-  [ChainId.BSCTestnet]: [WBNB[ChainId.BSCTestnet], Teddy[ChainId.BSCTestnet]],
-  [ChainId.BSC]: [WBNB[ChainId.BSC], Teddy[ChainId.BSC]],
-  [ChainId.KCC]: [WBNB[ChainId.KCC], Teddy[ChainId.KCC]]
+  [ChainId.BSCTestnet]: [Teddy[ChainId.BSCTestnet]],
+  [ChainId.BSC]: [Teddy[ChainId.BSC]],
+  [ChainId.KCC]: [Teddy[ChainId.KCC]]
 }
 
 // used to construct intermediary pairs for trading
