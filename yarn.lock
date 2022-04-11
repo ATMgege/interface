@@ -18331,10 +18331,10 @@ tar@^4.0.2:
     safe-buffer "^5.2.1"
     yallist "^3.1.1"
 
-teddyswap-sdk@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/teddyswap-sdk/-/teddyswap-sdk-3.0.3.tgz#c2a8f76c0da6967c73557ac711a9692364649e57"
-  integrity sha512-OADFVPBB7JoYwOZlGA5t7BXkwfTAuNmmuYkCR3TVr9r8aMcjcCu5aqcpmG+zDaFP2mWdbcSe3eg8xCqGMw+RpQ==
+teddyswap-sdk@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/teddyswap-sdk/-/teddyswap-sdk-4.0.1.tgz#21302805fa334c59ab99bd52f8e0f2dc9c062064"
+  integrity sha512-lpChN+tQDtvfczQkeqpyncDPNkgTqBD5ETrCc4a4GIYwrQ2E4Ww5KPPeCR2f7Zwy4dNq64Mw3+R4ncA3AkAdJA==
   dependencies:
     "@openzeppelin/cli" "^2.8.2"
     big.js "^5.2.2"

@@ -2,7 +2,7 @@ import { Currency, CBNB, Token } from 'teddyswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
-import AvaxLogo from '../../assets/images/kcs.png'
+import AvaxLogo from '../../assets/images/avalanche_token_round.png'
 import useHttpLocations from '../../hooks/useHttpLocations'
 import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'

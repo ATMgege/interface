@@ -36,7 +36,7 @@ export default function SwitchNetwork() {
   return (
     // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/30451
     <StyledMenu ref={node as any}>
-      <StyledMenuButton onClick={toggle}> KCC </StyledMenuButton>
+      <StyledMenuButton onClick={toggle}> AVAX </StyledMenuButton>
 
       {open && (
         <NarrowMenuFlyout>
@@ -47,6 +47,10 @@ export default function SwitchNetwork() {
           <MenuItem id="link" href="http://eth.teddyswap.co">
             <Send size={14} />
             ETH
+          </MenuItem>
+          <MenuItem id="link" href="http://kcc.teddyswap.co">
+            <Send size={14} />
+            KCC
           </MenuItem>
           {/* <MenuNavItem id="link" to={'/IDO'}>
             <Calendar size={14} />

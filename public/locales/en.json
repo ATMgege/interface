@@ -67,7 +67,7 @@
     "deposit": "Deposit",
     "poolRate": "Pool rate",
     "currentReward": "Current reward",
-    "pngPerAvax": "Teddy / Week per KCS",
+    "pngPerAvax": "Teddy / Week per AVAX",
     "rewardPerWeek": "{{ symbol }} / Week",
     "earnUpTo": "Earn up to (yearly)",
     "yourRate": "Your rate",
@@ -256,11 +256,11 @@
   "walletModal": {
     "wrongNetwork": "Wrong Network",
     "errorConnecting": "Error connecting",
-    "pleaseConnectAvalanche": "Please connect to the appropriate KCS network.",
-    "switchAvalanche": "Switch to KCS Chain",
+    "pleaseConnectAvalanche": "Please connect to the appropriate AVAX network.",
+    "switchAvalanche": "Switch to AVAX Chain",
     "errorConnectingRefresh": "Error connecting. Try refreshing the page.",
     "connectToWallet": "Connect to a wallet",
-    "newToAvalanche": "New to KCS? ",
+    "newToAvalanche": "New to AVAX? ",
     "learnMoreWallet": "Learn more about setting up a wallet",
     "initializing": "Initializing...",
     "tryAgain": "Try Again"
@@ -384,8 +384,8 @@
     "youWillReceive": "You will receive",
     "simple": "Simple",
     "detailed": "Detailed",
-    "receiveAvax": "Receive KCS",
-    "receiveWavax": "Receive WKCS",
+    "receiveAvax": "Receive AVAX",
+    "receiveWavax": "Receive WAVAX",
     "price": "Price:",
     "connectWallet": "Connect Wallet",
     "approving": "Approving",
@@ -431,12 +431,12 @@
     "trade": "Trade"
   },
   "buyPage": {
-    "buyAvaxInfo": "Buy KCS with fiat from our partner Wyre.",
+    "buyAvaxInfo": "Buy AVAX with fiat from our partner Wyre.",
     "privacyInfo": "Pangolin does not store your purchase history or any personal data.",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email",
-    "buyAvax": "Buy KCS"
+    "buyAvax": "Buy AVAX"
   },
   "votePage": {
     "unlockVotes": "Unlock Votes",
