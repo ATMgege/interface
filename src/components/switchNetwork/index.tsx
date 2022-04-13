@@ -48,6 +48,10 @@ export default function SwitchNetwork() {
             <Send size={14} />
             ETH
           </MenuItem>
+          <MenuItem id="link" href="http://avax.teddyswap.co">
+            <Send size={14} />
+            AVAX
+          </MenuItem>
           {/* <MenuNavItem id="link" to={'/IDO'}>
             <Calendar size={14} />
             {t('menu.idos')}
