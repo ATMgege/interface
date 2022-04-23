@@ -67,7 +67,7 @@
     "deposit": "Deposit",
     "poolRate": "Pool rate",
     "currentReward": "Current reward",
-    "pngPerAvax": "Teddy / Week per AVAX",
+    "pngPerAvax": "Teddy / Week per MATIC",
     "rewardPerWeek": "{{ symbol }} / Week",
     "earnUpTo": "Earn up to (yearly)",
     "yourRate": "Your rate",
@@ -256,11 +256,11 @@
   "walletModal": {
     "wrongNetwork": "Wrong Network",
     "errorConnecting": "Error connecting",
-    "pleaseConnectAvalanche": "Please connect to the appropriate AVAX network.",
-    "switchAvalanche": "Switch to AVAX Chain",
+    "pleaseConnectAvalanche": "Please connect to the appropriate MATIC network.",
+    "switchAvalanche": "Switch to MATIC Chain",
     "errorConnectingRefresh": "Error connecting. Try refreshing the page.",
     "connectToWallet": "Connect to a wallet",
-    "newToAvalanche": "New to AVAX? ",
+    "newToAvalanche": "New to MATIC? ",
     "learnMoreWallet": "Learn more about setting up a wallet",
     "initializing": "Initializing...",
     "tryAgain": "Try Again"
@@ -384,8 +384,8 @@
     "youWillReceive": "You will receive",
     "simple": "Simple",
     "detailed": "Detailed",
-    "receiveAvax": "Receive AVAX",
-    "receiveWavax": "Receive WAVAX",
+    "receiveAvax": "Receive MATIC",
+    "receiveWavax": "Receive WMATIC",
     "price": "Price:",
     "connectWallet": "Connect Wallet",
     "approving": "Approving",
@@ -431,12 +431,12 @@
     "trade": "Trade"
   },
   "buyPage": {
-    "buyAvaxInfo": "Buy AVAX with fiat from our partner Wyre.",
+    "buyAvaxInfo": "Buy MATIC with fiat from our partner Wyre.",
     "privacyInfo": "Pangolin does not store your purchase history or any personal data.",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email",
-    "buyAvax": "Buy AVAX"
+    "buyAvax": "Buy MATIC"
   },
   "votePage": {
     "unlockVotes": "Unlock Votes",

@@ -6,7 +6,7 @@ import { NetworkConnector } from './NetworkConnector'
 
 const NETWORK_URL = process.env.REACT_APP_NETWORK_URL
 
-export const NETWORK_CHAIN_ID: number = parseInt(process.env.REACT_APP_CHAIN_ID ?? '43114')
+export const NETWORK_CHAIN_ID: number = parseInt(process.env.REACT_APP_CHAIN_ID ?? '137')
 
 if (typeof NETWORK_URL === 'undefined') {
   throw new Error(`REACT_APP_NETWORK_URL must be a defined environment variable`)
@@ -23,7 +23,7 @@ export function getNetworkLibrary(): Web3Provider {
 }
 
 export const injected = new InjectedConnector({
-  supportedChainIds: [43114]
+  supportedChainIds: [137]
 })
 
 export const walletlink = new WalletLinkConnector({
@@ -34,7 +34,7 @@ export const walletlink = new WalletLinkConnector({
 
 export const walletconnect = new WalletConnectConnector({
   rpc: {
-    43114: NETWORK_URL
+    137: NETWORK_URL
   },
   qrcode: true,
   bridge: 'https://bridge.walletconnect.org'
