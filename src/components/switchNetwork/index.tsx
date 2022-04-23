@@ -52,6 +52,10 @@ export default function SwitchNetwork() {
             <Send size={14} />
             KCC
           </MenuItem>
+          <MenuItem id="link" href="http://matic.teddyswap.co">
+            <Send size={14} />
+            MATIC
+          </MenuItem>
           {/* <MenuNavItem id="link" to={'/IDO'}>
             <Calendar size={14} />
             {t('menu.idos')}
