@@ -111,6 +111,7 @@
     "useThisTool": "Usa esta herramienta para encontrar parejas que no aparecen automáticamente en la interfaz.",
     "swap": "Intercambiar",
     "pool": "Pool",
+    "Bridge": "Puente",
     "importPool": "Importar Pool",
     "createPair": "Crear una pareja",
     "addLiquidity": "Añadir Liquidez",
