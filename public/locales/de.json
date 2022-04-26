@@ -111,6 +111,7 @@
     "useThisTool": "Benutze dieses Werkzeug, um dir Paare anzeigen zu lassen, die nicht in der Schnittstelle auftauchen.",
     "swap": "Tauschen",
     "pool": "Pool",
+    "Bridge": "Brücke",
     "importPool": "Pool importieren",
     "createPair": "Erstelle ein Paar",
     "addLiquidity": "Füge Liquidität hinzu",
