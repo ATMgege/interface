@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next'
 import XHR from 'i18next-xhr-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-export const availableLanguages = ['en','de','es','fr','tr','vn','zh',]
+export const availableLanguages = ['en','de','es','fr','tr','vn','zh']
 export const defaultLocale = 'en'
 const LOCALE_VERSION = '1.5.1'
 
