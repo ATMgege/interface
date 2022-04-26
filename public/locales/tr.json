@@ -111,6 +111,7 @@
     "useThisTool": "Arayüzde otomatik olarak görünmeyen işlem çiftlerini bulmak için bu aracı kullanın.",
     "swap": "Swap(Takas)",
     "pool": "Havuz",
+    "Bridge": "Köprü":,
     "importPool": "Dışarıdan Havuz Ekle",
     "createPair": "Bir işlem çifti oluştur",
     "addLiquidity": "Likidite Ekle",
