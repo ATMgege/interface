@@ -111,7 +111,7 @@
     "useThisTool": "使用此工具查找交易对不会自动出现在界面中",
     "swap": "兌換",
     "pool": "矿池",
-    "pool": "跨链桥",
+    "Bridge": "跨链桥",
     "importPool": "导入矿池中",
     "createPair": "创建一个交易对",
     "addLiquidity": "增加流动性",
